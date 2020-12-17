@@ -1,0 +1,483 @@
+P {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+
+
+body {
+	
+	  
+	 font-family: 'Lato', sans-serif;
+	  color: white;
+	  padding-bottom: 100px;
+	
+}
+
+
+
+#home {
+  background-image: url("images/pizza home page2.jpg"); 
+background-color:#000000;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  
+}
+
+@media only screen and (max-width: 600px) {
+  #home {
+	background-image: url("images/pizza home page2.jpg");
+    background-size: 150vh;
+  }
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+ 
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+ 
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #ff6f00;
+
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+ 
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+.btn-group button {
+margin-top: 20px;
+}
+
+.btn-group button {
+  background-color: #ff6f00;
+  padding: 14px 30px;
+  color: white;
+  width: 250px;
+  cursor: pointer;  
+  display: block;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.boxed {
+	font-family: 'Lato', sans-serif;
+	color: black;
+    border: 1px solid #ff6f00 ;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+	text-align: center;
+   
+}
+
+
+
+
+.btn-group button:hover {
+	
+  background-color: #ffa040;
+  
+}
+
+img {
+	
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.logo {
+	display: block;
+	margin-top: 20px;
+   margin-left: auto;
+  margin-right: auto;
+	height:50px;
+   
+    
+}
+
+
+
+.logo-left {
+	margin-top: 20px;
+    margin-left: 5%; 
+	margin-right: 0px; 
+	width: 1%;
+	height:50px;
+    max-width: -10%;
+}
+
+.cart {
+	float:right;
+	margin-left: 100px;
+	
+}
+
+.times {
+	
+    margin-left: 0px; 
+	margin-right: 0px; 
+	margin-top: 70px;
+}
+
+.ctas {
+	
+    margin-left: 0px; 
+	margin-right: 0px; 
+	margin-top: 30%;
+}
+
+/* menu page */
+
+.button {
+  background-color: #808080;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;  
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+   margin-bottom: 10px;
+   margin-top: 10px;
+  
+ 
+}
+
+.btn-line button {
+  background-color: #ff6f00;
+  padding: 14px 30px;
+  color: white;
+  width: 250px;
+  cursor: pointer;  
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  border:none;
+  text-align: center;
+  align-items: center;
+  transform: translate(20%, 50%);
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.button:hover {
+	
+  background-color: #ffa040;
+}
+
+
+
+.container {
+    background-color:#3e2723;
+    width: 100%; 
+	height:80px; 
+	position:absolute;
+	z-index: -1;
+	top:0;left:0;
+   
+}
+
+div.background {
+ height: 100%;
+}
+
+div.transbox {
+ 
+  background-color: #ffffff;
+  opacity: 0.6;
+  height: 900px;
+}
+
+
+
+h1 {
+  color: #3e2723;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  
+}
+
+h2 {
+  color: #3e2723;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  
+}
+
+table, th, td {
+  color: #3e2723;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  text-align:LEFT;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 5px;
+}
+
+
+
+
+tr {
+  height: 40px; 
+  padding: 5px;  
+}
+ /* payments page */
+ 
+ 
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.new-container {
+  background-color: #3e2723;
+   padding: -0% 10% 10% 5%;
+  
+  border-radius: 3px;
+  margin-top: 20%;
+  margin-bottom: -10%;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: white;
+   
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: white;
+}
+
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/* About Contact */
+
+
+#about {
+  background-image: url("images/bg dough.jpg"); 
+background-color:#000000;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+.topbox {
+    
+ 
+  background-color: white;
+  opacity: 0.6;
+  margin: 20px;
+   width: 200%;
+  margin: 0px -50% 0px -50%;
+  padding: 0px 0px 0px 0px;
+    }
+	
+h3 {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #3e2723;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #3e2723;
+}
+
+.sarah {
+  float: right;
+  width: 50%;
+  padding: 20px;
+  border-radius: 50%;
+  
+}
+.peter {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  border-radius: 50%;
+ 
+}
+
+.aboutbox {
+   height: 20%;
+  flex-direction: column-reverse;
+  background-color: #3e2723;
+  width: auto;
+  margin-top: 60%;
+  padding: 3px;
+  
+  }
+
+
+.staff {
+ 
+  width: 50%;
+  padding: 20px;
+  margin: 10px auto 20px;
+    display: block;
+	border-radius: 50%;
+}
+
+.workbox {
+   height: 20%;
+  flex-direction: column-reverse;
+  background-color: #3e2723;
+  width: auto;
+  padding: 3px;
+  }
+  
+  .social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:70px;
+  height:70px;
+  margin-right: 20px;
+}
+.socialbox {
+    
+  background-color:#ff6f00;
+  width: 200%;
+  margin: 0px -50% 0px -50%;
+  padding: 0px 0px 0px 0px;
+
+    }
+
+
+
